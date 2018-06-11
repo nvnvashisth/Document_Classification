@@ -1,0 +1,38 @@
+======================================================
+                Data.csv
+======================================================
+
+Information about the data fields saved
+
+---------------------------------------------------
+origin_url : Course page URL
+----------------------------------------------------
+department_id : department as present in the URL
+department : Department name
+----------------------------------------------------
+course_id : Course id or number as savved by MIT
+course : Course name
+-----------------------------------------------------
+These 3 fields are filled as from page https://ocw.mit.edu/courses/find-by-topic/
+Topic :
+sub_category :
+specialty : 
+-----------------------------------------------------------
+download_size : Course materials size
+download_url : Course material download path
+-----------------------------------------------------------
+
+============================================================
+
+
+The script data_size.py tells you about the total dowload size : It is 16.41 GB
+
+------------------------------------------------------------
+
+
+The script pdf_extractor.py will extract the lecture or relevant pdfs from course materials download link.
+This script will create a folder with the name of the course-id and store all the pdfs inside it.
+
+To generate the the dataset just run :python pdf_extractor.py
+
+============================================================
